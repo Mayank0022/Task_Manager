@@ -4,7 +4,6 @@ const userRouter = require('./routers/user')
 const taskRouter = require('./routers/task')
 
 const app = express()
-const PORT = 
 
 app.use(express.json())
 app.use(userRouter)
