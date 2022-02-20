@@ -10,5 +10,5 @@ app.use(userRouter)
 app.use(taskRouter)
 
 app.listen(process.env.PORT||3000, () => {
-    console.log('Server is up on port ' + port)
+    console.log('Server is up on port ')
 })
